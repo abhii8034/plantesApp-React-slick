@@ -1,0 +1,47 @@
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-image {
+  width: 200px;
+  height: 180px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .planet-image {
+    width: 405px;
+    height: 292px;
+  }
+}
+
+.planet-name-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .planet-name-heading {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.planet-description {
+  text-align: center;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .planet-description {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
